@@ -121,16 +121,16 @@ export default function Nav({ page, setPage, auth, onSignIn, onSignOut }: NavPro
           )}
           <button
             onClick={auth ? onSignOut : onSignIn}
-            style={{
-              background: auth ? "var(--ac-lt)" : "var(--ac)",
-              border: auth ? "1.5px solid var(--ac)" : "1.5px solid transparent",
+           style={{
+              background: "#E63946",
+              border: "1.5px solid #E63946",
               borderRadius: 9,
               padding: "7px 18px",
               cursor: "pointer",
               display: "flex",
               alignItems: "center",
               gap: 7,
-              color: auth ? "var(--ac)" : "#fff",
+              color: "#ffffff",
               fontWeight: 650,
               fontSize: 13,
               transition: "0.2s",
