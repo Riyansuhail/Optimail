@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   description:
     "Find the right contact at your university instantly. AI-powered search, directory browsing, and email drafting for students, faculty, and staff.",
   keywords: ["university", "email directory", "AI", "contact finder", "northeastern"],
+  icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default function RootLayout({
